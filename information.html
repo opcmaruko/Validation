@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Validation-General Infomation</title>
+</head>
+
+<body>
+    <header class="header">
+        <p class="w-t">Ｗelcome to</p>
+        <img src="img/logo.png" alt="" class="logo">
+    </header>
+
+
+
+    <form class="content" action="updatepicture.html">
+        <h1 class="h1 ">General Infomation</h1>
+        <h2 class="h2">Tell us who you are!</h2>
+        <div class="input-container co-2">
+            <input class="js-input" type="text" name="name" id="name">
+            <label class="label-text" for="">Name (optional)</label>
+        </div>
+        <div class="input-container co-2">
+            <input class="js-input" type="tel" name="Phone" id="Phone" required>
+            <label class="label-text" for="">Phone*</label>
+        </div>
+        <div class="input-container co-1">
+            <input class="js-input" type="date" name="" id="" required>
+            <label class="label-text" for="">Birth Date</label>
+        </div>
+        <select class="select-container">
+            <option value="">City</option>
+            <option value="">City1</option>
+            <option value="">City2</option>
+            <option value="">City3</option>           
+        </select>
+        <select class="select-container">
+            <option value="">Dist</option>
+            <option value="">Dist1</option>
+            <option value="">Dist2</option>
+            <option value="">Dist3</option>           
+        </select>
+        <div class="input-container co-1">
+            <input class="js-input" type="text" name="address" id="address" required>
+            <label class="label-text" for="">Address*</label>
+        </div>
+        <button class="btn" id="button" name="button" type="submit">SUBMIT & NEXT</button>
+
+    </form>
+
+
+
+
+
+    <footer class="footer">
+        <div class="circuit-g">
+            <img src="img/kumo.png" alt="" class="sheep sheep2">
+            <div class="circuit circuit01">
+                <div class="round underwear2 "></div>
+                <h3 class="h3">Account</h3>
+            </div>
+            <div class="line line2"></div>
+
+            <div class="circuit circuit02">
+                <div class="round action-outer">
+                    <div class="round action-underwear"></div>
+                </div>
+                <h3 class="h3  action-h3">Information</h3>
+            </div>
+            <div class="line"></div>
+            <div class="circuit circuit03">
+                <div class="round underwear"></div>
+                <h3 class="h3">Picture</h3>
+            </div>
+            <div class="line"></div>
+            <div class="circuit circuit04">
+                <div class="round underwear"></div>
+                <h3 class="h3">Payment Method</h3>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/all.js"></script>
+
+</html>
